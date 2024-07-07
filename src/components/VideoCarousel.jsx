@@ -118,7 +118,7 @@ const VideoCarousel = () => {
     switch (type) {
       case 'video-end':
         setVideo((pre) => ({...pre, isEnd: true, videoId: i+ 1}))
-        breakl;
+        break;
       case 'video-last':
         setVideo((pre) => ({...pre, isLastVideo: true}))
         break;
